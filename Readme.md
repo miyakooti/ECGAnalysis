@@ -1,7 +1,7 @@
 # ECG_Analysis
-[polymate mini](https://datarecorder.jp/products/me/ap108.html)で取得した心電図の生データを解析するためのリポジトリ。
-
-```process()```関数に対して任意の引数を与えることによって、時間周波終了行きにおける指標を算出することが可能
+- [polymate mini](https://datarecorder.jp/products/me/ap108.html)で取得した心電図の生データを解析するためのリポジトリ。
+- ```process()```関数に対して任意の引数を与えることによって、時間周波終了行きにおける指標を算出することが可能
+- [心電図ライブラリ調査ページ](https://peppermint-alley-ea5.notion.site/HeartPy-eeb60f7d2f4b4965b8526f5610348207)
 
 ### 動作環境
 - Python 3.7.15
