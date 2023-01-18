@@ -1,3 +1,5 @@
+## リポジトリ名がECGAnalysis（心電図分析）となっていますが，結局脳波データなどもここで全部分析しています．
+
 # ECG_Analysis
 - [polymate mini](https://datarecorder.jp/products/me/ap108.html)で取得した心電図の生データを解析するためのリポジトリ。
 - ```process()```関数に対して任意の引数を与えることによって、時間周波終了行きにおける指標を算出することが可能
