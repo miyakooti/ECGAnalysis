@@ -6,6 +6,10 @@ class Constants:
     fs = 500.0
     
     # 分析フェーズ
+    
+    ### 分析結果格納フォルダ
+    folder_name = "for_makefile"
+    
     target_columns = ["bpm", "ibi", "lf", "hf","lf/hf","kubios_lf","kubios_hf","kubios_lf/hf","sdsd","rmssd","pnn20","pnn50","concentration_FC3","concentration_FC4","concentration_FCz","concentration_mean","FC3","FC4","FCz","mean_3ch","lf_diff", "hf_diff","lfhf_diff","hr_mad","sd1","sd2","s","sd1/sd2","breathingrate","lf_nu","hf_nu"]
     target_phases = ["boredom","flow","ultra","overload"]
     survey_items = ["difficulty","fast","fulfillment","absorb","questionnaire_average"]
