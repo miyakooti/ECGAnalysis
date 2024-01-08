@@ -1,4 +1,7 @@
 dataflow:
+
+	# PLIの平均値データ
+	jupyter execute export_mean_PLI.ipynb
 	
 	# 心電図
 	echo "prepare dataset"
