@@ -4,7 +4,8 @@ class Constants:
     folder_name = "analysis_folder_1"
 
     # データセット作成フェーズ
-    subject_name_list = ["kumakura","kim","souma","fujii","tubota","toki"]
+    subject_name_list = ["kumakura","kim","souma","fujii","tubota","toki","mori"]
+    # subject_name_list = ["mori"]
     phase_name_list = ["rest", "boredom", "flow", "ultra", "overload"]
     fs = 500.0
     

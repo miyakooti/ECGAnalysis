@@ -1,11 +1,16 @@
-dataflow:
+dataflow1:
+	echo "Exporting rr-interval data..."
+	echo "* after this session do kubios data process"
+	jupyter execute ECG/export_rr_interval.ipynb
+
+
+dataflow2:
 
 	# PLIの平均値データ
 	jupyter execute export_mean_PLI.ipynb
 	
 	# 心電図
 	echo "prepare dataset"
-	jupyter execute ECG/export_rr_interval.ipynb
 	jupyter execute ECG/export_HRV_parameters.ipynb
 	
 	# 結合
