@@ -1,6 +1,8 @@
 dataflow1:
-	echo "Exporting rr-interval data..."
-	echo "* after this session do kubios data process"
+	# -------------------------------------------
+	# Exporting rr-inverval data..
+	# * after this session do kubios data process
+	# -------------------------------------------
 	jupyter execute ECG/export_rr_interval.ipynb
 
 
@@ -10,18 +12,28 @@ dataflow2:
 	jupyter execute export_mean_PLI.ipynb
 	
 	# 心電図
-	echo "prepare dataset"
+	# --------------------------------------------
+	# prepare dataset
+	# --------------------------------------------
 	jupyter execute ECG/export_HRV_parameters.ipynb
 	
 	# 結合
-	echo "concat"
+	# --------------------------------------------
+	# concat
+	# --------------------------------------------
 	jupyter execute format_files/concat_HRV_PLI_Q.ipynb
 	
 	# 分析
-	echo "execute analysis"
+	# --------------------------------------------
+	# execute analysis
+	# --------------------------------------------
 	
 	jupyter execute correlation_of_flow_score.ipynb
 	jupyter execute regression_of_flow_score.ipynb
+
+	# --------------------------------------------
+	# properly done.
+	# --------------------------------------------
 
 	
 debug:
