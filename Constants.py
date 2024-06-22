@@ -1,10 +1,10 @@
 class Constants:
 
     ### 分析結果格納フォルダ
-    folder_name = "analysis_folder_1"
+    folder_name = "20240622_kyoto"
 
     # データセット作成フェーズ
-    subject_name_list = ["kumakura","kim","souma","fujii","tubota","toki","mori"]
+    subject_name_list = ["kumakura","kim","souma","fujii","tubota","toki","mori","hochi","yamada","takei","tenshin","masanori","enoki","ito","yoshioka","chizuru"]
     # subject_name_list = ["mori"]
     phase_name_list = ["rest", "boredom", "flow", "ultra", "overload"]
     fs = 500.0
