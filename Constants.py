@@ -17,7 +17,7 @@ class Constants:
                       "max_concentration_FC3", "max_concentration_FC4", "max_concentration_FCz", "max_concentration_mean",
                       "lf_diff", "hf_diff", "lfhf_diff", "hr_mad", "sd1", "sd2", "s", "sd1/sd2", "breathingrate", "lf_nu", "hf_nu"]
 
-    target_phases = ["rest", "boredom", "flow", "ultra", "overload"]
+    target_phases = ["boredom", "flow", "ultra", "overload"]
     survey_items = ["difficulty", "fast", "fulfillment",
                     "absorb", "questionnaire_average"]
 
